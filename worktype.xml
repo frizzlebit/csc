@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Consolas;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red163\green21\blue21;\red255\green0\blue0;
+\red0\green128\blue0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs20 \cf2 <?\cf3 xml\cf0  \cf4 version\cf2 ="1.0"\cf0  \cf4 encoding\cf2 ="utf-8"\cf0  \cf4 standalone\cf2 ="yes"\cf0  \cf2 ?>\cf0 \
+\cf2 <\cf3 work-orders\cf2 >\cf0 \
+	\cf2 <\cf3 worktype-list\cf2 >\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="1099"\cf0  \cf4 label\cf2 ="1099"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="1099RES"\cf0  \cf4 label\cf2 ="1099 Research"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="5498"\cf0  \cf4 label\cf2 ="5498"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="712"\cf0  \cf4 label\cf2 ="712 Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="712DTH"\cf0  \cf4 label\cf2 ="712 Request due to Death"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="ADDCHG"\cf0  \cf4 label\cf2 ="Address Change"\cf0  \cf4 awdscreen\cf2 ="comalpha"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="ALLOCATION"\cf0  \cf4 label\cf2 ="Allocation Change"\cf0  \cf4 awdscreen\cf2 ="comalpha"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="ANNST"\cf0  \cf4 label\cf2 ="Annual/Quarterly Statement Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="ASGMNT"\cf0  \cf4 label\cf2 ="Assignment added to the policy"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="BACKSCANB"\cf0  \cf4 label\cf2 ="Back Scan of image request"\cf0  \cf4 awdscreen\cf2 ="comalpha"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="BENECHG"\cf0  \cf4 label\cf2 ="Beneficiary Change request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="BILCHG"\cf0  \cf4 label\cf2 ="Bill Change request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="CDSCHKCOPY"\cf0  \cf4 label\cf2 ="Scanned Image of a check request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="CHKREISS"\cf0  \cf4 label\cf2 ="Reissue of a Check"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="COMPLAINT"\cf0  \cf4 label\cf2 ="Complaint"\cf0  \cf4 awdscreen\cf2 ="complnt"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="CORRESP"\cf0  \cf4 label\cf2 ="Correspondence request - VOC"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="COSTBAS"\cf0  \cf4 label\cf2 ="Cost Basis Letter"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="DIVIDEND"\cf0  \cf4 label\cf2 ="Dividend Information"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="DTHCLM"\cf0  \cf4 label\cf2 ="Death Claim"\cf0  \cf4 awdscreen\cf2 ="dthphone"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="DTHRES"\cf0  \cf4 label\cf2 ="Death Claim research"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="EFTRESRCH"\cf0  \cf4 label\cf2 ="EFT Research"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="FAX"\cf0  \cf4 label\cf2 ="Fax"\cf0  \cf4 awdscreen\cf2 ="comalpha"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="FORMS"\cf0  \cf4 label\cf2 ="Forms Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="GOVALLOT"\cf0  \cf4 label\cf2 ="Government Allotment research"\cf0  \cf4 awdscreen\cf2 ="list3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="ILLUST"\cf0  \cf4 label\cf2 ="Illustration request"\cf0  \cf4 awdscreen\cf2 ="comalpha"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="INQUIRY"\cf0  \cf4 label\cf2 ="Inquiry"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="LEGAL"\cf0  \cf4 label\cf2 ="Legal"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="LISTBILL"\cf0  \cf4 label\cf2 ="Change a List Bill"\cf0  \cf4 awdscreen\cf2 ="list3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="LOAN"\cf0  \cf4 label\cf2 ="Loan By Phone Request"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="LOANRES"\cf0  \cf4 label\cf2 ="Loan Research"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="MANBILL"\cf0  \cf4 label\cf2 ="Add the policy to the manual bill file"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="MANEFTB"\cf0  \cf4 label\cf2 ="Add ACH Payment"\cf0  \cf4 awdscreen\cf2 ="achpymt"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="MANEFT"\cf0  \cf4 label\cf2 ="Manually draft a policy"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="MATCORR"\cf0  \cf4 label\cf2 ="Send out a letter that provides maturity options"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="OWNCHG"\cf0  \cf4 label\cf2 ="Owner Change"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="PHONE"\cf0  \cf4 label\cf2 ="Call Note"\cf0  \cf4 awdscreen\cf2 ="phone"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="POLCHG"\cf0  \cf4 label\cf2 ="Policy Change"\cf0  \cf4 awdscreen\cf2 ="uw_work"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="POLRES"\cf0  \cf4 label\cf2 ="Policy Research Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="PREMIUM"\cf0  \cf4 label\cf2 ="Premium Payment"\cf0  \cf4 awdscreen\cf2 ="premproc"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="PREMREFUND"\cf0  \cf4 label\cf2 ="Refund Request"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="PRMRESRCH"\cf0  \cf4 label\cf2 ="Premium Research Request"\cf0  \cf4 awdscreen\cf2 ="premproc"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="PS58"\cf0  \cf4 label\cf2 ="PS58 Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="QUOTES"\cf0  \cf4 label\cf2 ="Term ART quotes"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="REINST"\cf0  \cf4 label\cf2 ="Informal Reinstatement Request"\cf0  \cf4 awdscreen\cf2 ="uw_work"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="REINSTFORM"\cf0  \cf4 label\cf2 ="Reinstatement Form Request"\cf0  \cf4 awdscreen\cf2 ="lckbox"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="REINSTMNY"\cf0  \cf4 label\cf2 ="Apply Money that was received before lapse"\cf0  \cf4 awdscreen\cf2 ="lckbox"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="SCHEDULEA"\cf0  \cf4 label\cf2 ="Schedule A Request"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="SURR"\cf0  \cf4 label\cf2 ="Surrender a policy"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="TEFRA"\cf0  \cf4 label\cf2 ="MEC Calculations"\cf0  \cf4 awdscreen\cf2 ="chkvchr"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 worktype\cf0  \cf4 value\cf2 ="VIP"\cf0  \cf4 label\cf2 ="VIP flag to be added for special handling"\cf0  \cf4 awdscreen\cf2 ="work_csd"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 worktype-list\cf2 >\cf0 \
+	\cf5 <!-- AWD Screen Configurations -->\cf0 \
+	\cf2 <\cf3 phone\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FXNO"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Fax Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LTBN"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Listbill Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="number"\cf0  \cf4 name\cf2 ="PHON"\cf0  \cf4 label\cf2 ="Phone Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RELA"\cf0  \cf4 maxlength\cf2 ="14"\cf0  \cf4 label\cf2 ="Caller Relation"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="TYCL"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Type of Call"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 phone\cf2 >\cf0 \
+	\cf2 <\cf3 achpymt\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="number"\cf0  \cf4 name\cf2 ="BACT"\cf0  \cf4 label\cf2 ="Bank Account #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BNAM"\cf0  \cf4 maxlength\cf2 ="75"\cf0  \cf4 label\cf2 ="Bank Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Bank Account Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAMT"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Draft Amount"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="number"\cf0  \cf4 name\cf2 ="CNUM"\cf0  \cf4 label\cf2 ="Check Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="PYFN"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Acctholder First Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="PYLN"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Acctholder Last Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="PYMT"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Payment Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ROUT"\cf0  \cf4 maxlength\cf2 ="9"\cf0  \cf4 label\cf2 ="Routing Number"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 achpymt\cf2 >\cf0 \
+	\cf2 <\cf3 work_csd\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ACTN"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Account Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="IDPM"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Primary ID"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="JEID"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Journal Entry ID"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="PHOC"\cf0  \cf4 label\cf2 ="Telephone Call"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 work_csd\cf2 >\cf0 \
+	\cf2 <\cf3 comalpha\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK1"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="number"\cf0  \cf4 name\cf2 ="CNUM"\cf0  \cf4 label\cf2 ="Check Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="GRPN"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Group Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LTBN"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Listbill Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="PHOC"\cf0  \cf4 label\cf2 ="Telephone Call"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 comalpha\cf2 >\cf0 \
+	\cf2 <\cf3 chkvchr\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="BENE"\cf0  \cf4 label\cf2 ="Benefit Cease Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CLEN"\cf0  \cf4 maxlength\cf2 ="4"\cf0  \cf4 label\cf2 ="Claims Examiner #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="COMM"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Comments"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="File Type"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 chkvchr\cf2 >\cf0 \
+	\cf2 <\cf3 complnt\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BLCK"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Block of Business"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="CLDT"\cf0  \cf4 label\cf2 ="Complaint Close Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CMDS"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Compl Disposition"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CMPF"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Complainant First"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CMPL"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Complainant Last"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CMSC"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Complaint Source"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="CPRD"\cf0  \cf4 label\cf2 ="Complaint Refer Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CPRS"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Complaint Responder"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CPST"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Compliant Status"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DES1"\cf0  \cf4 maxlength\cf2 ="75"\cf0  \cf4 label\cf2 ="Description 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DOI1"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Dept of Ins Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="DUDT"\cf0  \cf4 label\cf2 ="Complaint Due Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="PLTP"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Policy Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="POL1"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Additional Policy #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="RCD1"\cf0  \cf4 label\cf2 ="Compl Received Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="REL1"\cf0  \cf4 maxlength\cf2 ="14"\cf0  \cf4 label\cf2 ="Relationship"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RSCM"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Reason for Complaint"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="SRVC"\cf0  \cf4 maxlength\cf2 ="50"\cf0  \cf4 label\cf2 ="Comp Service Related"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 complnt\cf2 >\cf0 \
+	\cf2 <\cf3 dthphone\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ADD1"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Address Line 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ADD2"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Address Line 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ADD3"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="State"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="ADD4"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Zip"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="ASGI"\cf0  \cf4 label\cf2 ="Assignment Ind"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BRST"\cf0  \cf4 maxlength\cf2 ="2"\cf0  \cf4 label\cf2 ="Bene Resident State"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAUS"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Cause of Death"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CLEN"\cf0  \cf4 maxlength\cf2 ="4"\cf0  \cf4 label\cf2 ="Claims Examiner #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CLMN"\cf0  \cf4 maxlength\cf2 ="12"\cf0  \cf4 label\cf2 ="Claim Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CLNM"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Last Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNAM"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Company Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="COMM"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Comments"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DES1"\cf0  \cf4 maxlength\cf2 ="75"\cf0  \cf4 label\cf2 ="Description 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DES2"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Description 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DESC"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Description"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="DOD"\cf0  \cf4 label\cf2 ="Date of Death"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="File Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FXNO"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Fax Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LOCA"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Location of Death"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="PAYE"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Check Payee"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="number"\cf0  \cf4 name\cf2 ="PHON"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Phone Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="POL1"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Additional Policy #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="POL2"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Additional Policy #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="POL3"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Additional Policy #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="POL4"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Additional Policy #"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RAD1"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Address 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RAD2"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Address 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RAD3"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Address 3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RAD4"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Address 4"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RCNM"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Company"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="REL1"\cf0  \cf4 maxlength\cf2 ="14"\cf0  \cf4 label\cf2 ="Relationship"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RELA"\cf0  \cf4 maxlength\cf2 ="14"\cf0  \cf4 label\cf2 ="Caller Relation"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RNME"\cf0  \cf4 maxlength\cf2 ="30"\cf0  \cf4 label\cf2 ="Recipient Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="RSAL"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Recipient Salutation"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 dthphone\cf2 >\cf0 \
+	\cf2 <\cf3 list3\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BATN"\cf0  \cf4 maxlength\cf2 ="8"\cf0  \cf4 label\cf2 ="Batch Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM2"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM3"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM4"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 4"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM5"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 5"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM6"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 6"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAMT"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Draft Amount"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="CDAT"\cf0  \cf4 label\cf2 ="Check Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK1"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK2"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK3"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK4"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 4"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK5"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 5"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK6"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 6"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="DEPD"\cf0  \cf4 label\cf2 ="Deposit Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="File Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="GNAM"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Group Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LBDT"\cf0  \cf4 maxlength\cf2 ="6"\cf0  \cf4 label\cf2 ="Listbill Month/Year"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LTBN"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Listbill Number"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 list3\cf2 >\cf0 \
+	\cf2 <\cf3 uw_work\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="File Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="JEID"\cf0  \cf4 maxlength\cf2 ="15"\cf0  \cf4 label\cf2 ="Journal Entry ID"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="PHOC"\cf0  \cf4 label\cf2 ="Telephone Call"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="UNDC"\cf0  \cf4 id\cf2 ="UNDC"\cf0  \cf4 maxlength\cf2 ="4"\cf0  \cf4 label\cf2 ="Underwriter Code"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 uw_work\cf2 >\cf0 \
+	\cf2 <\cf3 premproc\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BATN"\cf0  \cf4 maxlength\cf2 ="8"\cf0  \cf4 label\cf2 ="Batch Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM2"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM3"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM4"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 4"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM5"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 5"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAM6"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Check Amount 6"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CAMT"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Draft Amount"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="CDAT"\cf0  \cf4 label\cf2 ="Check Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK1"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK2"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK3"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 3"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK4"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 4"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK5"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 5"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CHK6"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Check Number 6"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="CNME"\cf0  \cf4 maxlength\cf2 ="25"\cf0  \cf4 label\cf2 ="Caller Name"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="DEPD"\cf0  \cf4 label\cf2 ="Deposit Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="FTYP"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="File Type"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="LOAN"\cf0  \cf4 label\cf2 ="Loan"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="checkbox"\cf0  \cf4 name\cf2 ="PHOC"\cf0  \cf4 label\cf2 ="Telephone Call"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 premproc\cf2 >\cf0 \
+	\cf2 <\cf3 lckbox\cf2 >\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="AMT1"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Amount 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="BATN"\cf0  \cf4 maxlength\cf2 ="8"\cf0  \cf4 label\cf2 ="Batch Number"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DES1"\cf0  \cf4 maxlength\cf2 ="75"\cf0  \cf4 label\cf2 ="Description 1"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DES2"\cf0  \cf4 maxlength\cf2 ="40"\cf0  \cf4 label\cf2 ="Description 2"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="DESC"\cf0  \cf4 maxlength\cf2 ="20"\cf0  \cf4 label\cf2 ="Description"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="DREC"\cf0  \cf4 label\cf2 ="Date Received"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="date"\cf0  \cf4 name\cf2 ="EFTD"\cf0  \cf4 label\cf2 ="Effective Date"\cf0  \cf2 />\cf0 \
+		\cf2 <\cf3 field\cf0  \cf4 type\cf2 ="text"\cf0  \cf4 name\cf2 ="LTBN"\cf0  \cf4 maxlength\cf2 ="10"\cf0  \cf4 label\cf2 ="Listbill Number"\cf0  \cf2 />\cf0 \
+	\cf2 </\cf3 lckbox\cf2 >\cf0 \
+\cf2 </\cf3 work-orders\cf2 >}
